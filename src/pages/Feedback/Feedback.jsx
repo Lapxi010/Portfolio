@@ -25,7 +25,7 @@ export const Feedback = () => {
 	const onSubmit = async (e) => {
 		e.preventDefault()
 		if(email && name && message) {
-			await axios.post('https://portfolio-b25d4-default-rtdb.firebaseio.com/feedback', {
+			await axios.post('https://portfolio-b25d4-default-rtdb.firebaseio.com/', {
 				email,
 				name,
 				message
