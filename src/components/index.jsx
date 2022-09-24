@@ -1,0 +1,6 @@
+export * from './WorkBlock'
+export * from './Footer'
+export * from './Header'
+export * from './MySkills'
+export * from './MyWay'
+export * from './Title'
