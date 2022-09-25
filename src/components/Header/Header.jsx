@@ -20,7 +20,7 @@ export const Header = () => {
 								}
 								href='#'
 							>
-								About
+								О себе
 							</Link>
 						</li>
 						<li>
@@ -33,7 +33,7 @@ export const Header = () => {
 								}
 								href='#'
 							>
-								Works
+								Мои работы
 							</Link>
 						</li>
 						<li>
@@ -46,7 +46,7 @@ export const Header = () => {
 								}
 								href='#'
 							>
-								Feedback
+								Обратная связь
 							</Link>
 						</li>
 					</ul>

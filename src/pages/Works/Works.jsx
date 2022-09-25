@@ -7,7 +7,7 @@ export const Works = () => {
 		<>
 			<section className={styles.works_wrapper}>
 				<div className={styles.works}>
-					<Tittle text={'My works'} />
+					<Tittle text={'Мои работы'} />
 					<div className={styles.wrapper_works_blocks}>
 						<WorkBlock
 							title={'Game Shop'}

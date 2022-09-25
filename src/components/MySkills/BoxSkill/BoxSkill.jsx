@@ -4,8 +4,8 @@ import styles from './BoxSkill.module.sass'
 export const BoxSkill = ({ TitleT, img, TextT, Back }) => {
 	const [flag, setflag] = useState(true)
 
-	let theory = 89 * (Back.theory / 1000)
-	let practice = 89 * (Back.practice / 1000)
+	let theory = 89 * (Back.theory / 500)
+	let practice = 89 * (Back.practice / 500)
 
 	return (
 		<>
@@ -19,13 +19,13 @@ export const BoxSkill = ({ TitleT, img, TextT, Back }) => {
 						</>
 					) : (
 						<>
-							<p className={styles.box_skill_title}>Experience</p>
+							<p className={styles.box_skill_title}>Опыт</p>
 							<pre className={styles.box_skill_pre}>Теория</pre>
 							<div className={styles.box_skill_exp}>
 								{Back.theory} ч.{' '}
 								<div className={styles.box_skill_exp__line}>
 									<div
-										style={{ background: '#AD5AFF', width: theory + '%' }}
+										style={{ background: '#AD5AFF', width: theory + 'px' }}
 										className={styles.box_skill_exp__line_fill}
 									></div>
 								</div>
@@ -35,7 +35,7 @@ export const BoxSkill = ({ TitleT, img, TextT, Back }) => {
 								{Back.practice} ч.{' '}
 								<div className={styles.box_skill_exp__line}>
 									<div
-										style={{ width: practice + '%' }}
+										style={{ width: practice + 'px' }}
 										className={styles.box_skill_exp__line_fill}
 									></div>
 								</div>

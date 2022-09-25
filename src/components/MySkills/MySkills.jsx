@@ -6,92 +6,102 @@ export const MySkills = () => {
 	return (
 		<>
 			<section className={styles.skills}>
-				<div className={styles.title}>My Skills</div>
+				<div className={styles.title}>Мои навыки</div>
 				<div className={styles.skill_enumerate}>
 					<BoxSkill
 						TitleT={'Html'}
 						img={'./images/icons/Html.svg'}
-						TextT={'HTML is a language for building web pages.'}
+						TextT={
+							'Html это первый инструмент из ui разработки, с которым я познакомился. Он показался мне очень простым и понятным. Я хорошо его знаю.'
+						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'Html это первый инструмент, который я использовал.Его я знаю очень хорошо',
+							theory: 500,
+							practice: 500,
+							text: 'Я прочел и посмотрел много видео и статей по html. Я считаю, что его я знаю полностью.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'Css'}
 						img={'./images/icons/Css.svg'}
-						TextT={'Css is a language for beautifying a web page.'}
+						TextT={
+							'Сss это прекрасный инструмент  ui разработки, который я очень люблю за его безграничность и простоту. Я хорошо его знаю.'
+						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'Сss это второй инструмент, который я изучил  и успешно использовал в своих проектах',
+							theory: 500,
+							practice: 500,
+							text: 'Вместе с изучением html я также изучал css, поэтому я считаю, что его я знаю также.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'JavaScript'}
-						img={'./images/icons/Javascript.svg'}
-						TextT={'JavaScript is a multi-paradigm programming language'}
+						img={'./images/icons/JavaScript.svg'}
+						TextT={
+							'JavaScript это великолепный инструмент, который мне нравится и не нравится одновременно (Из-за отсутствия строгой типизации).'
+						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'Javascript это мой самый любимый язык программирования, который я использую везде.',
+							theory: 250,
+							practice: 400,
+							text: 'Я знаю JavaScript примерно на половину, хотя я довольно много практиковался.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'Vue'}
 						img={'./images/icons/Vue.svg'}
 						TextT={
-							'Vue is an JavaScript framework for building user interfaces.'
+							'Vue это мой первый фреймворк, с которым я познакомился. Я считаю, что он очень хорош для маленьких проектов.'
 						}
 						Back={{
-							theory: 599,
-							practice: 100,
-							text: 'Vue это мой первый фреймворк с которым я познакомился.Я считаю, что я его хорошо знаю.',
+							theory: 450,
+							practice: 300,
+							text: 'Vue довольно прост в изучение, у него маленькая документация, поэтому я его знаю приемлемо.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'React'}
 						img={'./images/icons/React.svg'}
 						TextT={
-							'React is an JavaScript framework for building user interfaces.'
+							'React мне очень нравится, но я его мало знаю. Я считаю, что react это лучшее, что есть в ui разработке. Он идеален.'
 						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'React это библиотека о которой я слышал из каждого утюга.Я его знаю плохо',
+							theory: 30,
+							practice: 50,
+							text: 'С react я знаком плохо, и мало с ним практиковался, но все таки небольшой опыт есть.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'Node Js'}
 						img={'./images/icons/Node.svg'}
-						TextT={'Node  is a software platform based on the V8 engine'}
+						TextT={
+							'C Node Js я был вынужден познакомиться в связи необходимостью взаимодействовать с сервером. Он классный, особенно express.'
+						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'Node js, как мне кажется универсальный инструмент на котором можно написать все.',
+							theory: 100,
+							practice: 120,
+							text: 'Я прошел несколько курсов по Node js. Я в состоянии создать простенький сервер или собрать проект.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'Webpack'}
 						img={'./images/icons/Webpack.svg'}
-						TextT={'webpack is an open source JavaScript module bundler.'}
+						TextT={
+							'Webpack я использую практически во всех проектах. Он универсален и необходим везде. Он очень прост для людей, которые знакомы с node js.'
+						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'Webpack это та вещь без которой не обходится не один мой проект.Я считаю я его знаю приемлемо.',
+							theory: 40,
+							practice: 100,
+							text: 'Я webpack знаю больше из практики, а не из теории, потому что документация у них так себе.',
 						}}
 					/>
 					<BoxSkill
 						TitleT={'Sass'}
 						img={'./images/icons/Sass.svg'}
 						TextT={
-							'sass is a css preprocessor designed to speed up development'
+							'Sass это инструмент, с которым я познакомился после знакомства с css. Он очень упрощает разработку и делает её приятней.'
 						}
 						Back={{
-							theory: 599,
-							practice: 300,
-							text: 'Sass это та вещь без которой нельзя создавать проекты среднего и большого размера.',
+							theory: 10,
+							practice: 400,
+							text: 'Теории у Sass нет, да она и не нужна. Ведь это просто предпроцессор.',
 						}}
 					/>
 				</div>

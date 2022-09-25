@@ -12,10 +12,10 @@ export const About = () => {
 				<div className={styles.about}>
 					<div className={styles.left_side}>
 						<div className={styles.image}>
-							<img src='#' alt='Avatar' />
+							<img src='./images/Avatar.png' alt='Avatar' />
 						</div>
 						<div className={styles.profession}>Frontend developer</div>
-						<p className={styles.contact}>Contact with me</p>
+						<p className={styles.contact}>Связь со мной</p>
 						<div
 							style={{ width: '120px', margin: '5px auto' }}
 							className={styles.line}
@@ -33,20 +33,22 @@ export const About = () => {
 						</div>
 					</div>
 					<div className={styles.right_side}>
-						<p className={styles.title}>Denisov Nikolay</p>
+						<p className={styles.title}>Денисов Николай</p>
 						<div
 							style={{ width: '160px', marginTop: '6px' }}
 							className={styles.line}
 						></div>
-						<p className={styles.city}>From Voronezh</p>
+						<p className={styles.city}>Из Воронежа</p>
 						<p className={styles.text}>
-							I am Denisov Nikolay, a young front-end developer from Voronezh,
-							who has been constantly learning this craft since 2020. I got
-							acquainted with programming in principle in 2018, when I wanted to
-							sell my PS Vita game console and then I wanted to do it as quickly
-							as possible and for this I wanted to collect all information on
-							Avito on advertisements with this console. And then I read an
-							article on habr about parsing sites using python.
+							Я Денисов Николай, молодой фронтенд-разработчик из Воронежа,
+							который постоянно учится этому ремеслу с 2020 года. Познакомился с
+							программированием я в 2018 году, когда захотел продать свою
+							игровую приставку PS Vita и тогда я хотел сделать это как можно
+							быстрее насколько это возможно и для этого мне пришлось
+							познакомиться с python. Я спарсил все объявления с ней и,
+							проанализировав эти данные, получил оптимальную цену. В итоге я её
+							продал, примерно за 4 дня. Учусь я в 10 классе в физмате на
+							твердую 4.
 						</p>
 					</div>
 				</div>
